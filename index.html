@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ali - Graphic Designer</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        header {
+            background: #111;
+            color: white;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            margin: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: #222;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            margin: 10px 0;
+        }
+
+        .hero p {
+            font-size: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background: white;
+            color: #111;
+            padding: 14px 30px;
+            margin-top: 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .portfolio {
+            padding: 70px 40px;
+            text-align: center;
+        }
+
+        .portfolio h2 {
+            font-size: 35px;
+        }
+
+        .categories {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .category {
+            background: white;
+            padding: 30px;
+            width: 220px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px #ccc;
+        }
+
+       .category img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+       }
+        .category h3 {
+            margin-bottom: 10px;
+        }
+
+        .about {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 70px 30px;
+        }
+
+        .contact {
+            text-align: center;
+            padding: 70px 30px;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>ALI</h2>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h1>Ali</h1>
+    <p>Graphic Designer</p>
+    <p>I create posters, advertisements, logos and social media designs.</p>
+
+    <a href="#portfolio" class="button">View My Portfolio</a>
+</section>
+
+<section class="portfolio" id="portfolio">
+
+    <h2>My Portfolio</h2>
+
+    <div class="categories">
+
+        <div class="category">
+            <img src="images/Perfume.jpg" alt="Perfume Poster">
+            <h3>Perfume Posters</h3>
+            <p>Creative perfume advertisements</p>
+        </div>
+
+        <div class="category">
+            <img src="images/coffee.jpg" alt="Coffee Poster">
+            <h3>Food & Coffee</h3>
+            <p>Food and coffee poster designs</p>
+        </div>
+
+        <div class="category">
+            <h3>Social Media</h3>
+            <p>Social media graphics</p>
+        </div>
+
+        <div class="category">
+            <h3>Advertisement</h3>
+            <p>Creative advertising designs</p>
+        </div>
+
+        <div class="category">
+            <h3>Branding</h3>
+            <p>Logos and brand designs</p>
+        </div>
+
+        <div class="category">
+            <h3>Other Posters</h3>
+            <p>My other creative work</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a creative graphic designer who loves creating
+        modern and attractive visual designs.
+    </p>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>Let's work together on your next design.</p>
+</section>
+
+<footer>
+    <p>© 2026 Ali - Graphic Designer</p>
+</footer>
+
+</body>
+</html>
